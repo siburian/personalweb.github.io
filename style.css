@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+}
+
+
+/*  #300030, #480048, #601848, #c04848, #f07241 */
+
+.container {
+    width: 70%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.header {
+    background: linear-gradient(#300030, #f07241, #601848);
+}
+
+.header .brand {
+    float: left;
+    cursor: pointer;
+    color: rgb(228, 222, 212);
+    font-family: sans-serif;
+}
+
+.header .nav {
+    float: right;
+    margin-top: 20px;
+}
+
+.header .nav li {
+    float: right;
+    margin-left: 30px;
+    display: block;
+    font-size: 20px;
+}
+
+.header .nav li a:hover {
+    color: rgb(20, 220, 220);
+}
+
+.header .nav li a {
+    text-decoration: none;
+    color: wheat;
+}
+
+.menu {
+    background: url(img/co.png) no-repeat;
+    background-size: cover;
+}
+
+.kalimat {
+    float: right;
+    margin-top: -450px;
+    margin-right: 200px;
+    margin-left: 450px;
+    font-family: "Dela Gothic One", cursive;
+}
+
+.kalimat p {
+    margin-top: 5px;
+}
+
+.foto {
+    height: 500px;
+    border-radius: 50px;
+    margin: 50px 0px 20px 50px;
+    box-shadow: 10px 10px 5px 0px rgba(133, 240, 5, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(133, 240, 5, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(133, 240, 5, 0.75);
+}
+
+.nama {
+    font-size: 25px;
+}
+
+.sertifikat {
+    background: url(img/coverhome.png) no-repeat;
+    background-size: cover;
+}
+
+.sertifikat h2 {
+    text-align: center;
+    color: #f07241;
+    margin: 0px 0px 20px 0px;
+    background-color: chartreuse;
+}
+
+.sertifikat img {
+    margin: 10px 0px 20px 20%;
+    box-shadow: -12px -8px 5px 0px rgba(5, 195, 240, 0.75);
+}
+
+.sertifikat img:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 130, 255, 0.75);
+}
+
+.skill {
+    background-image: url(img/skil.jpg) no-repeat;
+    background-size: cover;
+}
+
+.skill h2 {
+    margin: 0px 0px 30px 0px;
+    text-align: center;
+    background-color: aqua;
+}
+
+
+/* Container for skill bars */
+
+.cont {
+    width: 100%;
+    /* Full width */
+    background-color: rgba(136, 131, 131, 0.733);
+    /* Grey background */
+}
+
+.skills {
+    text-align: right;
+    /* Right-align text */
+    padding-top: 10px;
+    /* Add top padding */
+    padding-bottom: 10px;
+    /* Add bottom padding */
+    color: white;
+    /* White text color */
+}
+
+.opsi {
+    font-family: "Dela Gothic One", cursive;
+}
+
+.html {
+    width: 60%;
+    background-color: #04aa6d;
+}
+
+
+/* Green */
+
+.css {
+    width: 50%;
+    background-color: #2196f3;
+}
+
+
+/* Blue */
+
+.contact {
+    background-image: url(img/skil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.con {
+    text-align: center;
+    background-color: darkcyan;
+}
+
+.wa {
+    margin: 0px 500px 0px 500px;
+}
+
+.wa ul li {
+    display: block;
+    margin-top: 20px;
+}
+
+.wa ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.wa ul li a:hover {
+    color: rgb(241, 4, 4);
+}
+
+@media screen and (max-width: 800px) {
+    .foto {
+        height: 200px;
+        margin-left: 10px;
+    }
+    .kalimat {
+        float: right;
+        margin-top: -200px;
+        margin-right: 0px;
+        margin-left: 35%;
+        font-family: "Dela Gothic One", cursive;
+        font-size: 15px;
+    }
+    .kalimat p {
+        margin-top: 5px;
+    }
+    .nama {
+        font-size: 10px;
+    }
+    .sertifikat img {
+        height: 200px;
+        margin-bottom: 30px;
+    }
+    .brand {
+        display: none;
+    }
+    .header .nav li a {
+        float: left;
+        font-size: 14px;
+        margin-left: -60px;
+        padding: 25px;
+    }
+    .wa {
+        margin: 0px;
+        font-size: 10px;
+    }
+    .skills {
+        text-align: right;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        color: rgb(190, 48, 48);
+        font-size: 15px;
+    }
+}
